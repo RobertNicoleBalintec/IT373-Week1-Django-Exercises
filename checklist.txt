@@ -1,0 +1,7 @@
+Checklist: 
+Python version - Python 3.12.10
+Venv active - (.venv) PS C:\Projects\django-demo>
+Django version - 5.2.6
+Runserver working - working
+Git remote set. - origin  https://github.com/RobertNicoleBalintec/IT373-Week1-Django-Exercises.git (fetch)
+origin  https://github.com/RobertNicoleBalintec/IT373-Week1-Django-Exercises.git (push)

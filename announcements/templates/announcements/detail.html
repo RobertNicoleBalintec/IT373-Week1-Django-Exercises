@@ -1,0 +1,10 @@
+{% extends 'announcements/base.html' %}
+{% block title %}{{ announcement.title }}{% endblock %}
+{% block content %}
+<h2>{{ announcement.title }}</h2>
+<p>
+    {{ announcement.content|slice:":50" }}
+    <span id="more" style="display:none;">{{ announcement.content|slice:"50:" }}</span>
+    <button id="toggleBtn" onclick="toggleContent()">Read more</button>
+</p>
+{% endblock %}

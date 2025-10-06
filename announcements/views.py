@@ -3,8 +3,8 @@ from django.shortcuts import render
 from django.http import Http404
 
 ANNOUNCEMENTS = [
-    {'id': 1, 'title': 'Site Launch', 'content': 'We are excited to launch our new site. It has many features and improvements...'},
-    {'id': 2, 'title': 'Update', 'content': 'We’ve added new announcements and improved performance across the board...'},
+    {'id': 1, 'title': 'Site Launch', 'content': 'The site has been launched. It can do stuff and maybe more if I have to add more...'},
+    {'id': 2, 'title': 'Update', 'content': 'Surprise chuckleuts something new has happened. Check it out to see what has changed...'},
 ]
 
 def home(request):
